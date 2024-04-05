@@ -1,17 +1,16 @@
 def solution(brown, yellow):
     answer = []
+    
     s=brown+yellow
     
-    for w in range(s-1,-1,-1):
-        if s%w!=0:
+    for h in range(3,int(s**0.5)+1):
+        if s%h!=0:
             continue
-        h=s/w
-        y=(w-2)*(h-2)
-        b=s-y
-    
-        if y==yellow and b==brown:
-            answer.append(w)
-            answer.append(h)
-            break
+        else:
+            w=s//h
+            if (w-2)*(h-2)==yellow :
+                answer.append(w)
+                answer.append(h)
+                break
         
     return answer
