@@ -7,6 +7,5 @@ def solution(citations):
     for idx,val in enumerate(citations):
         if idx+1<=val:
             answer=idx+1
-            
-            
+                 
     return answer
