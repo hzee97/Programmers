@@ -1,1 +1,6 @@
 # Programmers
+
+<h4> 알고리즘 공부 : "Programmers" 매일 1문제 이상 문제 풀기. </h4>
+
+* LV.2 이상.
+* 알고리즘 고득점 Kit.
