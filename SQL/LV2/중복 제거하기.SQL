@@ -1,0 +1,5 @@
+-- COUNT 함수는 NULL값을 세지 않는다.
+-- DISTINCT 는 중복을 제거.
+
+SELECT COUNT(DISTINCT NAME)
+FROM ANIMAL_INS
