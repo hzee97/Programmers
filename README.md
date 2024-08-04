@@ -9,5 +9,5 @@
 <h4> SQL 공부 : "Programmers" </h4>
 
 * LV.1 [완료]
-* LV.2
+* LV.2 [완료]
 * SQL 고득점 Kit
